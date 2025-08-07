@@ -1,0 +1,11 @@
+# Ignore Node-related stuff
+node_modules/
+dist/
+.env
+
+# Vite build outputs
+.vite/
+
+# Ignore all files (if you want to untrack everything)
+*
+!.gitignore
