@@ -9,3 +9,5 @@ dist/
 # Ignore all files (if you want to untrack everything)
 *
 !.gitignore
+!client/
+!server/
