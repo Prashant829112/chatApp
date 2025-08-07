@@ -4,10 +4,10 @@ dist/
 .env
 
 # Vite build outputs
-.vite/
+# .vite/
 
 # Ignore all files (if you want to untrack everything)
-*
-!.gitignore
-!client/
-!server/
+
+# !.gitignore
+# !client/
+# !server/
