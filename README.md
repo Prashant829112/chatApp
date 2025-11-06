@@ -5,7 +5,7 @@
 -> 3. transfer of data from frontend to database & vice-versa is done through APIs which are links
 -> 4. creation of these API links is done in backend development 
 
--> steps
+-> steps (completely handwritten while creating the application to track the workflow)
 
 create folder chatApp -> inside it create two new folders client & server
 
