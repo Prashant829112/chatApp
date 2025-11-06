@@ -18,7 +18,7 @@ create folder chatApp -> inside it create two new folders client & server
 
 -> frontend setup
 -> cd client in terminal -> in client -> 
-go to tailwind.css site -> v.3.4.17 -> docs -> framework guides -> vite -> follow the installallation using react ->
+go to tailwind.css site -> v.3.4.17 -> docs -> framework guides -> vite -> follow the installation using react ->
 remove unwanted files, folders and codes from the pre-installed react app -> sometimes .vite folder is asked to be deleted if npm run dev is called -> delete it from node_modules ->
 add one more terminal to install "daisyui" ->
 go to daisyUI site -> how to use -> npm i -D daisyui@latest -> for plugins -> go to tailwind.config.js ->

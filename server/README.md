@@ -1,4 +1,4 @@
--> steps
+-> steps (backend)
 
 -> open terminal with chatApp as current folder -> cd server -> 
 -> npm init -y -> npm i express -> npm i mongoose 
