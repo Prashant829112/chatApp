@@ -8,7 +8,7 @@
 -> create folders controllers, middlewares, models, routes & .js files inside them 
 -> create file user.controller.js inside controllers
 -> set up server running mechanism -> 
--> npm i nodemon -D -> installed as dev dependency -> only for development purpose, no use for production
+-> npm i nodemon -D -> installed as dev dependency -> only for development purpose, no use for production  
 -> nodemon added in devDependencies in package.json -> add "dev":"nodemon server.js" inside "scripts", also replace "index.js" with "server.js" in "main"
 -> npm run dev 
 -> create models(Schema) -> create three models -> user.model.js, message.model.js & conversation.model.js
