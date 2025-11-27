@@ -6,9 +6,9 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Home from "./pages/home/home.jsx";
-import Login from "./pages/authentication/login.jsx";
-import Signup from "./pages/authentication/signup.jsx";
+import Home from "./pages/home/Home.jsx";
+import Login from "./pages/authentication/Login.jsx";
+import Signup from "./pages/authentication/Signup.jsx";
 import { store } from "./store/store.js";
 import { Provider } from "react-redux";
 import ProtectedRoutes from "./components/ProtectedRoutes.jsx";
