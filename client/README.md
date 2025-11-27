@@ -23,7 +23,7 @@ remove unwanted files, folders and codes from the pre-installed react app -> som
 add one more terminal to install "daisyui" ->
 go to daisyUI site -> how to use -> npm i -D daisyui@latest -> for plugins -> go to tailwind.config.js ->
 add require("daisyui") inside plugins -> now you can use daisyUI components -> add daisyui theme -> 
-daisyui: {
+daisyui: { 
     themes: ["light", "dark", "cupcake","bumblebee"],
   },
 -> add this in tailwind.config.js
@@ -68,7 +68,7 @@ daisyui: {
 -> extraReducers -> section of reducers that handle async(createAsyncThunk) calls
 -> flow
 -> component -> dispatch(action_name()) -> thunk runs -> API is called -> redux toolkit dispatches action_name.pending, action_name.fulfilled & action_name.rejected -> extraReducers handles the three calls -> new state updated -> UI auto refresh
-
+ 
 -> design home page
 -> inside home folder, create UserSidebar.jsx & MessageContainer.jsx 
 -> design these containers using daisyUI components & react icons -> search for input, button, AVATAR, chat bubble, etc on daisyUI 
