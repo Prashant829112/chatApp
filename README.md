@@ -11,6 +11,6 @@ using Username and Password. For the first time, can go to the signup page and s
 -> On the home page, can see all the users of the app and who among them are online on the left hand side
 -> once he clicks on any person's name, his conversation with that person will open on right hand side. For this, I have created API that gets converstation data from database.
 -> if the user sends a message, that message will be posted on the database for which I have created API
--> Apart from this, I have done authentication using JWT token, password encryption, route protection so that a user on home page cannot accesslogin/signup page without Logout, automatic avatar generation, etc
+-> Apart from this, I have done authentication using JWT token, password encryption, route protection so that a user on home page cannot accesslogin/signup page without Logout, automatic avatar generation, etc 
 
  
