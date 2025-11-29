@@ -7,7 +7,7 @@ import jwt from 'jsonwebtoken'
 export const register = asyncHandler(async (req, res, next) => {
   const { fullName, userName, password, gender } = req.body;
   if (!fullName || !userName || !password || !gender) {
-    return next(new errorHandler("All fields are required", 400));
+    return next(new errorHandler("All fields are required", 400));      // errorHandler is used to pass custom error message and statuscode to errorMiddleware
   }
   const user = await User.findOne({ userName });
   if (user) {

@@ -15,14 +15,14 @@ app.use(cors({
     origin:[process.env.CLIENT_URL],       // only data from sites in origin array is fetchable
     credentials:true                        // if cookies, auth headers, tokens need to be transferred, credentials:true & in axiosInstance.post('URL',{withCredentials:true})
 }))
-app.use(express.json())
+app.use(express.json())         // allows data transfer in JSON format
 app.use(cookieParser())
 
 const PORT=process.env.PORT
 console.log(PORT)
 
 import userRoute from './routes/user.route.js'
-app.use('/api/v1/user',userRoute)
+app.use('/api/v1/user',userRoute)           // /api tells this route is an api, /v1 tells version 1 -> further development -> /v2
 // here /api/v1/user are middlewares
 
 import messageRoute from './routes/message.route.js'
