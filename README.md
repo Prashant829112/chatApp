@@ -1,16 +1,27 @@
--> web development
+# Real-Time Chat Application (MERN + Socket.io)
 
--> 1. create frontend through which user interacts & can input data, if user's data is not required to be stored then website is done
--> 2. if user's data is needed to be stored, create a database to store data
--> 3. transfer of data from frontend to database & vice-versa is done through APIs which are links
--> 4. creation of these API links is done in backend development 
+A full-stack real-time chat application built using the MERN stack and Socket.io.  
+It includes user authentication, real-time messaging, REST APIs, and MongoDB data persistence, demonstrating core Software Engineering and backend development skills.
 
--> flow
--> frontend consists of 3 pages(login, signup and home). User initially lands on the login page from where can login 
-using Username and Password. For the first time, can go to the signup page and signup using Username, Name, gender, password.
--> On the home page, can see all the users of the app and who among them are online on the left hand side
--> once he clicks on any person's name, his conversation with that person will open on right hand side. For this, I have created API that gets converstation data from database.
--> if the user sends a message, that message will be posted on the database for which I have created API
--> Apart from this, I have done authentication using JWT token, password encryption, route protection so that a user on home page cannot accesslogin/signup page without Logout, automatic avatar generation, etc 
+---
+
+## 🚀 Tech Stack
+- **Frontend:** React.js, React Router, Context API  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB + Mongoose  
+- **Real-Time:** Socket.io  
+- **Auth:** JWT, bcrypt  
+
+---
+
+## 🔧 Key Features
+- Real-time one-to-one messaging  
+- JWT-based user authentication  
+- Message storage with MongoDB  
+- REST API for users, chats, and messages  
+- Modular backend architecture (controllers, routes, middleware)
+- Features like date and time of chat, pre-built avatar, online/offline user tracking, etc 
+
+---
 
  
