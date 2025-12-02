@@ -6,7 +6,7 @@ It includes user authentication, real-time messaging, REST APIs, and MongoDB dat
 ---
 
 ## 🚀 Tech Stack
-- **Frontend:** React.js, React Router, Context API  
+- **Frontend:** React.js, React Router  
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB + Mongoose  
 - **Real-Time:** Socket.io  
